@@ -53,9 +53,4 @@ git checkout -b feature-ten-tinh-nang
 
 ---
 
-## 📅 Lịch Sử Cập Nhật & Phiên Bản
-*   `v1.0.0` (Tháng 06/2026): Hoàn thành nghiệm thu dự án thực tập tốt nghiệp, tối ưu SEO, Responsive hoàn chỉnh.
-*   `v0.1.0` (Tháng 06/2026): Khởi tạo giao diện tĩnh ban đầu.
-
----
 *Kính gửi lời cảm ơn chân thành đến thầy **Trần Hoàng Bảo** đã tận tình hướng dẫn nhóm hoàn thành dự án này!*
