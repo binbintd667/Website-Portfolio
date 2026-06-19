@@ -30,7 +30,7 @@ Dưới đây là danh sách thành viên và vai trò phân nhiệm trong dự 
 Dự án tuân thủ nghiêm ngặt quy trình quản lý mã nguồn phân nhánh để đảm bảo an toàn cho nhánh chính `main`:
 
 ### 1. Khởi tạo và Đồng bộ cấu trúc (Thành viên Hào)
-```bash
+```
 git init
 git add .
 git commit -m "Khởi tạo website Portfolio"
@@ -38,13 +38,13 @@ git remote add origin [https://github.com/binbintd667/Website-Portfolio.git](htt
 git branch -M main
 git push -u origin main
 git checkout -b feature-ten-tinh-nang
-    ```
+```
 *   **Đóng gói và đẩy nhánh lên GitHub:**
-```bash
+```
     git add .
     git commit -m "Mô tả tính năng đã hoàn thành"
     git push origin feature-ten-tinh-nang
-    ```
+```
 
 ### 3. Kiểm duyệt và Hợp nhất (Pull Request & Merging)
 *   Thành viên gửi yêu cầu **Pull Request** trên giao diện GitHub.
