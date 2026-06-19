@@ -37,3 +37,25 @@ git commit -m "Khởi tạo website Portfolio"
 git remote add origin [https://github.com/binbintd667/Website-Portfolio.git](https://github.com/binbintd667/Website-Portfolio.git)
 git branch -M main
 git push -u origin main
+git checkout -b feature-ten-tinh-nang
+    ```
+*   **Đóng gói và đẩy nhánh lên GitHub:**
+```bash
+    git add .
+    git commit -m "Mô tả tính năng đã hoàn thành"
+    git push origin feature-ten-tinh-nang
+    ```
+
+### 3. Kiểm duyệt và Hợp nhất (Pull Request & Merging)
+*   Thành viên gửi yêu cầu **Pull Request** trên giao diện GitHub.
+*   Quản trị viên (`Nam` & `Long`) tiến hành rà soát mã nguồn, kiểm tra xung đột hệ thống.
+*   Xử lý lỗi xung đột phát sinh (Merge Conflict) và nhấn **Merge Pull Request** để chính thức đồng bộ code vào nhánh `main`.
+
+---
+
+## 📅 Lịch Sử Cập Nhật & Phiên Bản
+*   `v1.0.0` (Tháng 06/2026): Hoàn thành nghiệm thu dự án thực tập tốt nghiệp, tối ưu SEO, Responsive hoàn chỉnh.
+*   `v0.1.0` (Tháng 06/2026): Khởi tạo giao diện tĩnh ban đầu.
+
+---
+*Kính gửi lời cảm ơn chân thành đến thầy **Trần Hoàng Bảo** đã tận tình hướng dẫn nhóm hoàn thành dự án này!*
