@@ -179,7 +179,7 @@
             nam: {
                 name: "NGUYỄN PHÚC HOÀI NAM",
                 role: "Trưởng Nhóm & Quản Trị Hệ Thống",
-                image: "nam.png", // <--- THAY ĐƯỜNG DẪN ẢNH THỰC TẾ VÀO ĐÂY
+                image: "nam.webp",
                 bullets: [
                     "Thiết lập Repository & Git Flow hoàn chỉnh cho cả nhóm phối hợp làm việc.",
                     "Kiểm soát nghiêm ngặt các Pull Requests & tiến hành Merge code nhằm tránh xung đột.",
@@ -189,7 +189,7 @@
             hao: {
                 name: "NGUYỄN NHỰT HÀO",
                 role: "Thiết kế Giao Diện UI/UX & Frontend Cơ Bản",
-                image: "hao.png", // <--- THAY ĐƯỜNG DẪN ẢNH THỰC TẾ VÀO ĐÂY
+                image: "hao.webp",
                 bullets: [
                     "Phụ trách xây dựng bộ nhận diện hình ảnh cho trang Portfolio nhóm, bắt đầu từ bản phác thảo wireframe sơ bộ đến bản thiết kế chi tiết (UI/UX).",
                     "Đảm bảo tính đồng bộ, nhất quan tối đa về hệ thống màu sắc chủ đạo, nghệ thuật chữ (typography) và thiết kế cấu trúc HTML chuẩn cấu trúc SEO."
@@ -198,7 +198,7 @@
             hieu: {
                 name: "PHẠM BÌNH MINH HIẾU",
                 role: "Hiệu Ứng Hình Ảnh & Frontend Nâng Cao",
-                image: "hieu.jpg", // <--- THAY ĐƯỜNG DẪN ẢNH THỰC TẾ VÀO ĐÂY
+                image: "hieu.webp",
                 bullets: [
                     "Hiện thực hóa mã nguồn giao diện động, phát triển các hiệu ứng tương tác cuộn trang và các trạng thái Hover chân thực.",
                     "Tối ưu hóa các tài nguyên đồ họa chuyển động mượt mà, gia tăng trải nghiệm nghe nhìn cho người truy cập mà không ảnh hưởng tới tốc độ tải trang."
@@ -207,7 +207,7 @@
             khoa: {
                 name: "NGUYỄN ANH KHOA",
                 role: "Logic & Engine Developer",
-                image: "khoa.jpg", // <--- THAY ĐƯỜNG DẪN ẢNH THỰC TẾ VÀO ĐÂY
+                image: "khoa.webp",
                 bullets: [
                     "Đảm bảo toàn bộ hệ thống các nút bấm tương tác và tính năng chuyên sâu trên website đều hoạt động đồng bộ và chính xác tuyệt đối.",
                     "Tối ưu hóa mã nguồn xử lý JavaScript thuần cốt lõi để đạt tốc độ phản hồi nhanh chóng, mượt mà nhất dưới ngưỡng phản hồi 100ms."
@@ -216,7 +216,7 @@
             long: {
                 name: "NGUYỄN HÀ MINH LONG",
                 role: "QA & Quản Trị Nội Dung",
-                image: "long.png", // <--- THAY ĐƯỜNG DẪN ẢNH THỰC TẾ VÀO ĐÂY
+                image: "long.webp",
                 bullets: [
                     "Người gác cổng chất lượng cho toàn bộ dự án, thực hiện kiểm thử tìm lỗi (Tester) giao diện website trên mọi nền tảng di động và trình duyệt khác nhau.",
                     "Phụ trách biên tập nội dung, câu chữ chuyên nghiệp và hoàn thiện hồ sơ/báo cáo tiến độ chuẩn chỉnh cho nhóm."
@@ -230,7 +230,6 @@
 
             let bulletListHTML = member.bullets.map(b => `<li><i class="fa-solid fa-check check-icon"></i> ${b}</li>`).join('');
             
-            // Thay thế icon bằng thẻ img để load ảnh cá nhân phía bên phải
             const htmlContent = `
                 <div class="modal-left-info">
                     <h2>${member.name}</h2>
