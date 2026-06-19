@@ -14,7 +14,7 @@ Dưới đây là danh sách thành viên và vai trò phân nhiệm trong dự 
 | 2 | **Nguyễn Nhựt Hào** | [@eds3lg](https://github.com/eds3lg) | **Developer:** Thiết lập bộ khung cấu trúc HTML/CSS ban đầu cho giao diện trang chủ (`feature-ui-hao`). |
 | 3 | **Phạm Bình Minh Hiếu** | [@phambinhminhhieu1-commits](https://github.com/phambinhminhhieu1-commits) | **Developer:** Tối ưu hóa hiển thị Responsive tương thích thiết bị di động (`feature-responsive-hieu`). |
 | 4 | **Nguyễn Anh Khoa** | [@khoaqtth](https://github.com/khoaqtth) | **Developer:** Tối ưu dung lượng hình ảnh sang `.webp` và cấu hình các thẻ meta SEO On-page (`feature-optimize-khoa`). |
-| 5 | **Nguyễn Hà Minh Long** | [@minhlong013010](#) | **Tester / Project Manager:** Kiểm thử giao diện, phát hiện và phối hợp xử lý xung đột mã nguồn (Merge Conflict). |
+| 5 | **Nguyễn Hà Minh Long** | [@minhlong013010](https://github.com/minhlong013010) | **Tester / Project Manager:** Kiểm thử giao diện, phát hiện và phối hợp xử lý xung đột mã nguồn (Merge Conflict). |
 
 ---
 
